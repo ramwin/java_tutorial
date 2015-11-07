@@ -23,10 +23,11 @@
     4: wxj <filename>.java
 3: Learn java in this order:
     # Basic tutorial
-    01: HelloWorld.java         A basic Example, How to print result on your screen
-    02: Comments.java           How to use comment
-    03: Defination.java         How to definate a variant
-    04: BasicOperation.java          Basic Operation
-
+        01: HelloWorld.java         A basic Example, How to print result on your screen
+        02: Comments.java           How to use comment
+        03: Defination.java         How to definate a variant
+        04: BasicOperation.java     Basic Operation
+        05: IfElse.java             if else 
+        06: SwitchCase.java         Switch case
 
     # tutorial grouped by type
