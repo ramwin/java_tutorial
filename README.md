@@ -29,5 +29,8 @@
         04: BasicOperation.java     Basic Operation
         05: IfElse.java             if else 
         06: SwitchCase.java         Switch case
+        07: Iterate.java            How to iterate a loop (for, while, do)
+        08: IterateControl.java     Special iterate loop control operation (continue and break)
+        09: BasicArray.java              The array variable
 
     # tutorial grouped by type
