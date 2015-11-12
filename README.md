@@ -22,7 +22,7 @@
     3: write your own <filename>.java file or download the tutorial file
     4: wxj <filename>.java
 3: Learn java in this order:
-    # Basic tutorial
+    # Basic tutorial    # file in the Basci_example folder
         01: HelloWorld.java         A basic Example, How to print result on your screen
         02: Comments.java           How to use comment
         03: Defination.java         How to definate a variant
@@ -32,6 +32,11 @@
         07: Iterate.java            How to iterate a loop (for, while, do)
         08: IterateControl.java     Special iterate loop control operation (continue and break)
         09: BasicArray.java              The array variable
+        10: BasicClass.java         Basic class and function 
+        11: Inheritance.java        inheritance other class, how to Override and Overload
+        12: UserSuper.java          Hot to use super to use the function of father class or inherite the constructor of father class
+        13: Package.java            The use of package
+        14: PackageAccess.java      Control the access of properties and other decoration such as static, final, abstract
 
     # tutorial grouped by type
         RegularMatch.java           User Regex match

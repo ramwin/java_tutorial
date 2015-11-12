@@ -2,21 +2,22 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 public class RegularMatch {
     public static void main(String[] args){
-        String url = "tunnelport5911wangxew";
-        Pattern p = Pattern.compile("or");
-        Matcher m = p.matcher(url); // find if there is a matcher
-        System.out.println(m);
-        
-        
-        /** @author: Jialiang Ni */
-        String url2 = "http://192.168.1.111:8080/guacamole/tunnelport5678usernameABC";
-		Pattern pattern = Pattern.compile("tunnelport([1-9]+)username([a-zA-Z]+)");
-		Matcher matcher = pattern.matcher(url2);
-		System.out.println("Start matching\n");
-		if (matcher.find()){
-			System.out.println(matcher.group(0));
-			System.out.println(matcher.group(1));
-			System.out.println(matcher.group(2));
+        String url = "http://192.168.1.161:8080/wangx23/tunnel/typevnc/host192.168.1.111/port5911/usernamewangx/passwordacoman/tunnel?write:27088613-741b-4066-992a-4bb0d3edaa2b";
+        Pattern pattern = Pattern.compile("type([a-zA-Z]+)/host([0-9.]+)/port([0-9]+)/username([a-zA-Z]+)/password([a-zA-Z0-9]+)");
+        Matcher matcher = pattern.matcher(url);
+		String type = "";
+		String host = "";
+		String port = "";
+		String username = "";
+		String password = "";
+		if (matcher.find()) {
+			System.out.println("find ");
+			type = matcher.group(1);
+			host = matcher.group(2);
+			port = matcher.group(3);
+			username = matcher.group(4);
+			password = matcher.group(5);
 		}
+        System.out.println(port);
     }
 }
