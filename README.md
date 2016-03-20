@@ -38,7 +38,7 @@
         13: Package.java            The use of package
         14: PackageAccess.java      Control the access of properties and other decoration such as static, final, abstract
         15: Interface.java          The interface
-        16: TranVariable.java       transport variable  
+        16: TranVariable.java       transport variable
 
     # tutorial grouped by type
         RegularMatch.java           User Regex match

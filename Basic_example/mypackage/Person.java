@@ -1,7 +1,7 @@
 package mypackage;  // The Person class is included in the mypackage
 public class Person {  // define a class named Person
-    String name;    // define porperties of Person
-    int age;
+    public String name;    // define porperties of Person
+    public int age;
     void sayHello() {   // define a method of Person
         System.out.println("Hello! My name is "+name);
         System.out.println("Hello! I'm "+ this.age + " years old.");
